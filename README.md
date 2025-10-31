@@ -1,2 +1,20 @@
-# age-proof-packages
-Public distribution point for Age Proof SDK artifacts, including Android .aar libraries and iOS .xcframework packages. This repository hosts compiled packages for integration via Maven and Swift Package Manager.
+# Age Proof Packages
+
+This repository hosts the **compiled SDK artifacts** for the Age Proof product. It provides public access to Android and iOS packages for integration into mobile applications.
+
+> ⚠️ **Note:** This repository does **not** contain the source code for Age Proof. The source code is maintained privately. This repository is solely for distributing compiled packages.
+
+---
+
+## 📦 Android Integration (via Maven)
+
+To integrate the Age Proof Android SDK into your app using Maven:
+
+### 1. Add the GitHub Maven repository to your `build.gradle`:
+```groovy
+repositories {
+    maven {
+        url = uri("https://maven.pkg.github.com/luciditi-digital-id/age-proof-packages")
+    }
+}
+```
