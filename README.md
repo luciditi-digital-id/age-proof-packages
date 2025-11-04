@@ -15,6 +15,12 @@ To integrate the Age Proof Android SDK into your app using Maven:
 repositories {
     maven {
         url = uri("https://maven.pkg.github.com/luciditi-digital-id/age-proof-packages")
+        credentials {
+            username = 'your-git-username'
+            password = 'your-git-pat' // This PAT requires the read:packages scope
+        }
     }
 }
 ```
+
+> ⚠️ **Note:** The above example contains hard-coded values for convenience. Please **do not** store any sensitive credentials directly in your source code.
