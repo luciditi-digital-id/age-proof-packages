@@ -1,4 +1,4 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AgeProof",
-            url: "https://github.com/luciditi-digital-id/age-proof-packages/releases/download/v1.0.0-beta.2898/ageProof.xcframework.zip",
-            checksum: "70e834e8b1d0dbcf9f5aa7936c2cacf01aa4c270a47b19fb19ba25c7f1fd3740"
+            url: "https://github.com/luciditi-digital-id/age-proof-packages/releases/download/v1.0.0-beta.2899/ageProof.xcframework.zip",
+            checksum: "56cf7277630688eb1bb30d4223c9e2c56acaa2a8755a8a09e89d9188f18389fa"
         )
     ]
 )
