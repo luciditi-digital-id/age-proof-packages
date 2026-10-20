@@ -1,17 +1,17 @@
-// swift-tools-version:5.5
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "AgeProof",
-    platforms: [.iOS(.v15)],
+    platforms: [.iOS(.v16)],
     products: [
         .library(name: "AgeProof", targets: ["AgeProof"])
     ],
     targets: [
         .binaryTarget(
             name: "AgeProof",
-            url: "https://github.com/luciditi-digital-id/age-proof-packages/releases/download/v1.2.0-beta.4587/ageProof.xcframework.zip",
-            checksum: "4504ff9b7ea9a61e52a5004f43fa4c1f204209423469f255aec5d39497b8ac83"
+            url: "https://github.com/luciditi-digital-id/age-proof-packages/releases/download/v1.2.0-beta.4595/ageProof.xcframework.zip",
+            checksum: "004725f61d356cf66301964ab9e3e7c3188b3f4669573c2d3b18fca4ce1817fb"
         )
     ]
 )
